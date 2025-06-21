@@ -4,6 +4,8 @@ import TransportThingy from "@/components/TransportThingy";
 import WeatherThingy from "@/components/WeatherThingy";
 import Image from "next/image";
 import heroimage from "@/public/kerala1.jpg";
+import PlacesThingy from "@/components/PlacesThingy";
+import FoodsThingy from "@/components/FoodsThingy";
 // import Loading from "./loading";
 // import { useState, useEffect } from "react";
 
@@ -50,6 +52,8 @@ export default function Home() {
       <ImagesThingy />
       <TransportThingy />
       <WeatherThingy />
+      <PlacesThingy />
+      <FoodsThingy />
     </div>
     </>
   );
