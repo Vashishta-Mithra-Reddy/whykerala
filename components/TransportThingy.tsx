@@ -1,16 +1,18 @@
+"use client";
 import PixelTransition from "./PixelTransition/PixelTransition";
 
 export default function TransportThingy() {
     return (
-        <section className="text-center py-10 font-satoshi">
-            <h2 className="text-center font-satoshi text-5xl pb-16 text-whitex/95">Getting Around</h2>
+        <section className="text-center pt-10 pb-28 font-satoshi">
+            {/* <h2 className="text-center font-satoshi text-5xl pb-16 text-whitex/95">Getting Around</h2> */}
+            <h2 className="text-center font-satoshi text-5xl pb-16 text-whitex/95">So, How Do We Get Around?</h2>
             {/* <p className="mt-4 text-xl">Choose your ride — Car, Bike, Train, or Bus.</p> */}
             <div className="flex md:flex-row  items-center flex-col gap-20 mb-12">
             <PixelTransition
                 firstContent={
                     <img
                     src="/kerala2.jpg"
-                    alt="default pixel transition content, a cat!"
+                    alt="Train."
                     style={{ width: "100%", height: "100%", objectFit: "cover" }}
                     />
                 }
@@ -21,23 +23,23 @@ export default function TransportThingy() {
                         height: "100%",
                         display: "grid",
                         placeItems: "center",
-                        backgroundColor: "#111"
+                        backgroundColor: "#efdcc7"
                     }}
                     >
-                    <p style={{ fontWeight: 900, fontSize: "3rem", color: "#ffffff" }}>🚂<br></br>Train?</p>
+                    <p style={{ fontWeight: 900, fontSize: "3rem", color: "#991634" }}>🚂<br></br>Train?</p>
                     </div>
                 }
                 gridSize={12}
-                pixelColor='#ffffff'
+                pixelColor='#991634'
                 animationStepDuration={0.4}
-                className="custom-pixel-card"
+                className="custom-pixel-card text-redx"
             />
 
             <PixelTransition
                 firstContent={
                     <img
                     src="/kerala3.jpg"
-                    alt="default pixel transition content, a cat!"
+                    alt="Bike."
                     style={{ width: "100%", height: "100%", objectFit: "cover" }}
                     />
                 }
@@ -48,14 +50,14 @@ export default function TransportThingy() {
                         height: "100%",
                         display: "grid",
                         placeItems: "center",
-                        backgroundColor: "#111"
+                        backgroundColor: "#efdcc7"
                     }}
                     >
-                    <p style={{ fontWeight: 900, fontSize: "3rem", color: "#ffffff" }}>🏍️<br></br>Bike?</p>
+                    <p style={{ fontWeight: 900, fontSize: "3rem", color: "#991634" }}>🏍️<br></br>Bike?</p>
                     </div>
                 }
                 gridSize={12}
-                pixelColor='#ffffff'
+                pixelColor='#991634'
                 animationStepDuration={0.4}
                 className="custom-pixel-card"
             />
@@ -64,7 +66,7 @@ export default function TransportThingy() {
                 firstContent={
                     <img
                     src="/kerala1.jpg"
-                    alt="default pixel transition content, a cat!"
+                    alt="Bus."
                     style={{ width: "100%", height: "100%", objectFit: "cover" }}
                     />
                 }
@@ -75,14 +77,14 @@ export default function TransportThingy() {
                         height: "100%",
                         display: "grid",
                         placeItems: "center",
-                        backgroundColor: "#111"
+                        backgroundColor: "#efdcc7"
                     }}
                     >
-                    <p style={{ fontWeight: 900, fontSize: "3rem", color: "#ffffff" }}>🚌<br></br>Bus?</p>
+                    <p style={{ fontWeight: 900, fontSize: "3rem", color: "#991634" }}>🚌<br></br>Bus?</p>
                     </div>
                 }
                 gridSize={12}
-                pixelColor='#ffffff'
+                pixelColor='#991634'
                 animationStepDuration={0.4}
                 className="custom-pixel-card"
             />

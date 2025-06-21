@@ -10,8 +10,8 @@ export default function Header() {
             <Image 
             src="/whykerala.png"
             alt="kerala"
-            width={52}
-            height={52}
+            width={62}
+            height={62}
             className="animate-wiggle animate-infinite"
             />
         </div>

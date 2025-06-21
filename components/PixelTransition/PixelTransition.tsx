@@ -29,13 +29,15 @@ const PixelTransition: React.FC<PixelTransitionProps> = ({
   const delayedCallRef = useRef<gsap.core.Tween | null>(null);
 
   const [isActive, setIsActive] = useState<boolean>(false);
-
-  const isTouchDevice =
-    "ontouchstart" in window ||
-    navigator.maxTouchPoints > 0 ||
-    window.matchMedia("(pointer: coarse)").matches;
+  const [isTouchDevice, setIsTouchDevice] = useState<boolean>(false);
 
   useEffect(() => {
+    setIsTouchDevice(
+      "ontouchstart" in window ||
+      navigator.maxTouchPoints > 0 ||
+      window.matchMedia("(pointer: coarse)").matches
+    );
+
     const pixelGridEl = pixelGridRef.current;
     if (!pixelGridEl) return;
 
