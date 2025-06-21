@@ -31,12 +31,12 @@ export default function RootLayout({
       >
         <ThemeProvider
           attribute="class"
-          defaultTheme="system"
+          defaultTheme="light"
           enableSystem
           // disableTransitionOnChange
         >
         <Header />
-        <main className="bg-redx/80 dark:bg-redx/50 rounded-b-4xl">
+        <main className="bg-redx/80 dark:bg-redx/50 rounded-b-3xl md:rounded-b-4xl">
         {children}
         </main>
         <Footer />
