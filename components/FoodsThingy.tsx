@@ -5,7 +5,7 @@ export default function FoodsThingy() {
         {name: "Puttu", imageUrl: "/foods/puttu.jpeg"},
         {name: "Kozhukatta", imageUrl: "/foods/kozhukatta.avif"},
         {name: "Unniappam", imageUrl: "/foods/unniappam.avif"},
-        {name: "Payasam", imageUrl: "/foods/Payasam.avif"}
+        {name: "Payasam", imageUrl: "/foods/payasam.avif"}
     ];
     return (
         <section className="my-10 mb-24">
