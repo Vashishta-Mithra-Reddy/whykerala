@@ -3,6 +3,7 @@ import ImagesThingy from "@/components/ImagesThingy";
 import TransportThingy from "@/components/TransportThingy";
 import WeatherThingy from "@/components/WeatherThingy";
 import Image from "next/image";
+import heroimage from "@/public/kerala1.jpg";
 // import Loading from "./loading";
 // import { useState, useEffect } from "react";
 
@@ -34,10 +35,12 @@ export default function Home() {
 
       <div>
       <Image
-        src="/kerala1.jpg"
+        src={heroimage}
         alt="Kerala"
         width={700}
         height={600}
+        placeholder="blur"
+        quality={10}
         priority
         className="rounded-xl shadow-2xl animate-fade-left duration-500 animate-ease-in dark:brightness-95 hover:sepia-50"
       />

@@ -59,6 +59,11 @@ const WeatherThingy = () => {
       <input
         type="text"
         value={input}
+        onKeyDown={(e) => {
+          if (e.key === "Enter" && !loading && input.trim()) {
+            fetchWeather();
+          }
+        }}
         onChange={(e) => setInput(e.target.value)}
         placeholder="Where are you right now? (Enter your city)"
         className="text-center w-full px-4 py-3 rounded-xl border-2 transition-all duration-500 border-zinc-300 dark:border-zinc-700 bg-zinc-100 dark:bg-zinc-800 outline-none focus:ring-4 focus:ring-whitex focus:border-redx focus:border-2"
