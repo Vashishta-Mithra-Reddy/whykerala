@@ -1,5 +1,6 @@
 // "use client";
 import ImagesThingy from "@/components/ImagesThingy";
+import TransportThingy from "@/components/TransportThingy";
 import Image from "next/image";
 // import Loading from "./loading";
 // import { useState, useEffect } from "react";
@@ -43,6 +44,7 @@ export default function Home() {
           
       </section>
       <ImagesThingy />
+      <TransportThingy />
     </div>
     </>
   );
