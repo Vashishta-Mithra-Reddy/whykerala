@@ -1,22 +1,63 @@
 @import "tailwindcss";
+@import "tailwindcss-animated";
+
+@custom-variant dark (&:where(.dark, .dark *));
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --redx: lch(33.71% 56.31 20.42);
+  --whitex: lch(88.91% 13.54 71.58);
+  --yellowx:lch(81.82% 79.69 80.88);
+}
+
+.light {
+  --background: lch(88.91% 13.54 71.58);
+  --foreground: #171717;
+  --primary-colour: #ffffe3;
+  --border: #d0d0d0;
+  --popover: #ffffff;
+}
+
+.dark {
+  --background: lch(88.91% 13.54 71.58);
+  --foreground: #ededed;
+  --primary-colour: #ffffe3;
+  --popover: #282828;
+  --border: #3a3a3a;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-redx: var( --redx);
+  --color-whitex: var(--whitex);
+  --color-yellowx: var(--yellowx);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-satoshi: var(--font-satoshi);
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+} */
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: none;
+}
+::-webkit-scrollbar-thumb {
+  background: white;
+  -webkit-box-shadow: none;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: none;
 }
 
 body {
