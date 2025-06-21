@@ -36,7 +36,7 @@ export default function TransportThingy() {
                         backgroundColor: "#efdcc7"
                     }}
                     >
-                    <p style={{ fontWeight: 900, fontSize: "3rem", color: "#991634" }}>🚂<br></br>Train?</p>
+                    <p style={{ fontWeight: 900, fontSize: "3rem", color: "#991634" }}>🚂<br></br>Train</p>
                     </div>
                 }
                 gridSize={12}
@@ -63,7 +63,7 @@ export default function TransportThingy() {
                         backgroundColor: "#efdcc7"
                     }}
                     >
-                    <p style={{ fontWeight: 900, fontSize: "3rem", color: "#991634" }}>🏍️<br></br>Bike?</p>
+                    <p style={{ fontWeight: 900, fontSize: "3rem", color: "#991634" }}>🏍️<br></br>Bike</p>
                     </div>
                 }
                 gridSize={12}
@@ -90,7 +90,7 @@ export default function TransportThingy() {
                         backgroundColor: "#efdcc7"
                     }}
                     >
-                    <p style={{ fontWeight: 900, fontSize: "3rem", color: "#991634" }}>🚌<br></br>Bus?</p>
+                    <p style={{ fontWeight: 900, fontSize: "3rem", color: "#991634" }}>🚌<br></br>Bus</p>
                     </div>
                 }
                 gridSize={12}
