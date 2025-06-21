@@ -1,4 +1,3 @@
-// "use client";
 import ImagesThingy from "@/components/ImagesThingy";
 import TransportThingy from "@/components/TransportThingy";
 import WeatherThingy from "@/components/WeatherThingy";
@@ -6,23 +5,11 @@ import Image from "next/image";
 import heroimage from "@/public/kerala1.jpg";
 import PlacesThingy from "@/components/PlacesThingy";
 import FoodsThingy from "@/components/FoodsThingy";
-// import Loading from "./loading";
-// import { useState, useEffect } from "react";
 
 export default function Home() {
-  // const [isLoading, setIsLoading] = useState(true);
-
-  // useEffect(() => {
-  //   const timer = setTimeout(() => {
-  //     setIsLoading(false);
-  //   }, 2500); 
-    
-  //   return () => clearTimeout(timer); // Cleanup the timer
-  // }, []);
 
   return (
     <>
-    {/* {isLoading && <Loading />}  */}
     <div className="items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-satoshi">
       <section className="flex flex-col gap-20 md:flex-row items-center justify-between">
       

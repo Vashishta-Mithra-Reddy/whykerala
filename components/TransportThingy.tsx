@@ -7,6 +7,16 @@ export default function TransportThingy() {
             {/* <h2 className="text-center font-satoshi text-5xl pb-16 text-whitex/95">Getting Around</h2> */}
             <h2 className="text-center font-satoshi text-5xl pb-16 text-whitex/95">So, How Do We Get Around?</h2>
             {/* <p className="mt-4 text-xl">Choose your ride — Car, Bike, Train, or Bus.</p> */}
+            
+            <div className="hidden md:block relative">
+            <span className="absolute top-[-3rem] right-[0%] translate-x-1/2 rotate-12 text-whitex/70 animate-pulse text-xl italic pointer-events-none">
+                Hover over a card.
+            </span>
+            {/* Your cards or other content here */}
+            </div>
+            
+            <span className="md:hidden block text-whitex text-xl pb-8 animate-pulse">Click on a card.</span>
+            
             <div className="flex md:flex-row  items-center flex-col gap-20 mb-12">
             <PixelTransition
                 firstContent={
