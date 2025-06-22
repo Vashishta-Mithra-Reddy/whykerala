@@ -1,8 +1,8 @@
+import Image from "next/image";
+import heroimage from "@/public/kerala1.jpg";
 import ImagesThingy from "@/components/ImagesThingy";
 import TransportThingy from "@/components/TransportThingy";
 import WeatherThingy from "@/components/WeatherThingy";
-import Image from "next/image";
-import heroimage from "@/public/kerala1.jpg";
 import PlacesThingy from "@/components/PlacesThingy";
 import FoodsThingy from "@/components/FoodsThingy";
 
