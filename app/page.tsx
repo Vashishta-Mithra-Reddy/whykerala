@@ -18,7 +18,7 @@ export default function Home() {
           Why Kerala<span>?</span>
         </h1>
         <p className="text-2xl text-balance text-whitex/70 animate-fade-right duration-1000 animate-delay-100">
-          Now we'll learn reasons on why to visit Kerala
+          Now we'll look into reasons on why to visit Kerala
         </p>
       </div>
 
