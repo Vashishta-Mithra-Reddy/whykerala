@@ -9,7 +9,7 @@ export default function TransportThingy() {
             {/* <p className="mt-4 text-xl">Choose your ride — Car, Bike, Train, or Bus.</p> */}
             
             <div className="hidden md:block relative">
-            <span className="absolute top-[-3rem] right-[0%] translate-x-1/2 rotate-12 text-whitex/70 animate-pulse text-xl italic pointer-events-none">
+            <span className="absolute top-[-3rem] right-[10%] translate-x-1/2 rotate-12 text-whitex/70 animate-pulse text-xl italic pointer-events-none">
                 Hover over a card.
             </span>
             {/* Your cards or other content here */}
@@ -17,7 +17,8 @@ export default function TransportThingy() {
             
             <span className="md:hidden block text-whitex text-xl pb-8 animate-pulse">Click on a card.</span>
             
-            <div className="flex md:flex-row  items-center flex-col gap-20 mb-12">
+            <div className="flex md:flex-row justify-center items-center flex-col gap-20 mb-12">
+
             <PixelTransition
                 firstContent={
                     <img

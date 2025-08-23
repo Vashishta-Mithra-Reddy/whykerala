@@ -16,7 +16,7 @@ const satoshi = localfont({
 
 export const metadata: Metadata = {
   title: "Why Kerala?",
-  description: "Now we'll learn reasons on why to visit Kerala",
+  description: "Now we'll look into reasons on why to visit Kerala",
 };
 
 export default function RootLayout({
@@ -33,7 +33,6 @@ export default function RootLayout({
           attribute="class"
           defaultTheme="light"
           enableSystem
-          // disableTransitionOnChange
         >
         <Header />
         <main className="bg-redx/80 dark:bg-redx/50 rounded-b-3xl md:rounded-b-4xl">

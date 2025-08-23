@@ -45,7 +45,7 @@ export default function FoodsThingy() {
   ];
 
   return (
-    <section className="my-10 mb-24">
+    <section className="my-10 mb-24  px-8 sm:px-20">
       <div className="rounded-xl p-6 w-full mx-auto font-satoshi select-none">
         <h2 className="text-center font-satoshi text-5xl pb-20 text-whitex/95">
           Ahh, And Lots Of Great Food.
