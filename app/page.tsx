@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
     <div className="items-center justify-items-center min-h-screen pb-20 gap-16 font-satoshi">
-      <section className="flex flex-col gap-20 md:flex-row items-center justify-between  p-8 sm:p-20 sm:pb-0">
+      <section className="flex flex-col gap-20 md:flex-row items-center justify-between p-8 sm:p-24 sm:pb-0">
       <div className="text-center md:text-left text-whitex/95 bg-radial from-whitex/10 to-transparent via-transparent">
         <h1 className="text-6xl font-semibold mb-4 animate-fade-right duration-500">
           Why Kerala<span>?</span>
