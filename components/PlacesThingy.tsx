@@ -10,7 +10,7 @@ export default function PlacesThingy() {
           <Link
             href="https://www.google.com/maps/d/u/0/edit?mid=1uEbXqK40hcYwOBvyXWTOfen-88TKfRA&usp=sharing"
             target="_blank"
-            className="group w-full bg-whitex/90 px-6 py-4 rounded-xl mt-12 hover:bg-whitex text-center text-redx text-xl transition-all duration-500 active:scale-95 hover:scale-105 max-w-2xl"
+            className="group w-full bg-whitex/90 px-6 py-4 rounded-xl mt-12 hover:bg-whitex text-center text-redx text-xl transition-all duration-500 active:scale-95 hover:scale-105 max-w-xl"
           >
             Open Map
             <ArrowUpRight className="inline-block ml-1 mb-1 transition-all duration-500 group-hover:translate-x-1" />
