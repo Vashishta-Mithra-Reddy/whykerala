@@ -12,7 +12,6 @@ export default function TransportThingy() {
             <span className="absolute top-[-3rem] right-[10%] translate-x-1/2 rotate-12 text-whitex/70 animate-pulse text-xl italic pointer-events-none">
                 Hover over a card.
             </span>
-            {/* Your cards or other content here */}
             </div>
             
             <span className="md:hidden block text-whitex text-xl pb-8 animate-pulse">Click on a card.</span>

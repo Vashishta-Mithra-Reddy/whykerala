@@ -2,7 +2,7 @@ import { InfiniteSlider } from "./motion-primitives/infinite-slider";
 
 export default function ImagesThingy() {
     return (
-            <section className="my-40 max-w-vw">
+            <section className="my-40 max-w-screen">
                 {/* <h2 className="text-center font-satoshi text-5xl pb-16 text-whitex/95">Great Views</h2> */}
                 <h2 className="text-center font-satoshi text-5xl pb-16 text-whitex/95 p-8 sm:p-20">What's There To See? Mannn..<span className="text-sm italic">scroll a little</span></h2>
                 <div className='flex-row space-y-4'>
