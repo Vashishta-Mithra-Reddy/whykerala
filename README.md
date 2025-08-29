@@ -2,8 +2,6 @@
 
 **A modern, interactive web experience showcasing Kerala - God's Own Country**
 
-![WhyKerala Homepage](https://github.com/user-attachments/assets/7399def9-e1ad-425b-b6f6-1b32b34da312)
-
 *An immersive journey through Kerala's stunning landscapes, rich culture, delicious cuisine, and travel opportunities.*
 
 ---
