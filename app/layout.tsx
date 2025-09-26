@@ -5,6 +5,7 @@ import { ThemeProvider } from "next-themes";
 import "./globals.css";
 import Footer from "@/components/Footer";
 import Header from "@/components/header";
+import { Analytics } from "@vercel/analytics/next";
 
 
 const satoshi = localfont({
@@ -37,6 +38,7 @@ export default function RootLayout({
         <Header />
         <main className="bg-redx/80 dark:bg-redx/50 rounded-b-3xl md:rounded-b-4xl">
         {children}
+        <Analytics /> 
         </main>
         <Footer />
         </ThemeProvider>
