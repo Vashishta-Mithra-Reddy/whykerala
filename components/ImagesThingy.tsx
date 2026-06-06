@@ -9,74 +9,74 @@ export default function ImagesThingy() {
                 <InfiniteSlider direction='horizontal'>
                     <img
                     src='/kerala15.jpg'
-                    alt='Dean blunt - Black Metal 2'
+                    alt='Scenic view of Kerala'
                     className='aspect-square object-fit w-[280px] rounded-[4px]'
                     />
                     <img
                     src='/kerala2.jpg'
-                    alt='Jungle Jack - JUNGLE DES ILLUSIONS VOL 2'
+                    alt='Backwaters of Kerala'
                     className='aspect-square w-[280px] object-cover rounded-[4px]'
                     />
                     <img
                     src='/kerala3.jpg'
-                    alt='Yung Lean - Stardust'
+                    alt='Lush green hills in Kerala'
                     className='aspect-square w-[280px] object-cover rounded-[4px]'
                     />
                     <img
                     src='/kerala4.jpg'
-                    alt='DAYS BEFORE RODEO - Travis Scott'
+                    alt='Houseboat on the Kerala backwaters'
                     className='aspect-square w-[280px] object-cover rounded-[4px]'
                     />
                     <img
                     src='/kerala5.jpg'
-                    alt="You're in My System - TORYONTHEBEAT"
+                    alt='Kerala beach at sunset'
                     className='aspect-square w-[280px] object-cover rounded-[4px]'
                     />
                     <img
                     src='/kerala6.jpg'
-                    alt="You can't tell me - People Make the World Go Round"
+                    alt='Tea plantations in Munnar, Kerala'
                     className='aspect-square w-[280px] object-cover rounded-[4px]'
                     />
                     <img
                     src='/kerala.jpg'
-                    alt="You can't tell me - People Make the World Go Round"
+                    alt='Palm-lined coast of Kerala'
                     className='aspect-square w-[280px] object-cover rounded-[4px]'
                     />
                 </InfiniteSlider>
                 <InfiniteSlider direction='horizontal' reverse>
                     <img
                     src='/kerala7.jpg'
-                    alt='DAYS BEFORE RODEO - Travis Scott'
+                    alt='Traditional Kerala houseboat cruise'
                     className='aspect-square w-[280px] object-cover rounded-[4px]'
                     />
                     <img
                     src='/kerala8.jpg'
-                    alt="You're in My System - TORYONTHEBEAT"
+                    alt='Coconut palms along a Kerala waterway'
                     className='aspect-square w-[280px] rounded-[4px]'
                     />
                     <img
                     src='/kerala18.jpg'
-                    alt="You can't tell me - People Make the World Go Round"
+                    alt='Misty hills of the Western Ghats in Kerala'
                     className='aspect-square w-[280px] rounded-[4px]'
                     />
                     <img
                     src='/kerala14.jpg'
-                    alt='DAYS BEFORE RODEO - Travis Scott'
+                    alt='Kerala temple architecture'
                     className='aspect-square w-[280px] object-cover rounded-[4px]'
                     />
                     <img
                     src='/kerala10.jpg'
-                    alt="You're in My System - TORYONTHEBEAT"
+                    alt='Waterfall in the Kerala countryside'
                     className='aspect-square w-[280px] object-cover rounded-[4px]'
                     />
                     <img
                     src='/kerala12.jpg'
-                    alt="You can't tell me - People Make the World Go Round"
+                    alt='Sunset over the Arabian Sea in Kerala'
                     className='aspect-square w-[280px] object-cover rounded-[4px]'
                     />
                     <img
                     src='/kerala13.jpg'
-                    alt="You can't tell me - People Make the World Go Round"
+                    alt='Rice paddy fields in rural Kerala'
                     className='aspect-square w-[280px] object-cover rounded-[4px]'
                     />
                 </InfiniteSlider>
