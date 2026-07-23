@@ -90,7 +90,7 @@ Whether you're planning a trip, exploring travel options, or simply curious abou
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Vashishta-Mithra-Reddy/whykerala.git
+   git clone https://github.com/vxshta/whykerala.git
    cd whykerala
    ```
 
@@ -307,8 +307,8 @@ Created with ❤️ to showcase the incredible beauty and culture of Kerala - tr
 
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/Vashishta-Mithra-Reddy/whykerala/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/Vashishta-Mithra-Reddy/whykerala/discussions)
+- **Issues**: [GitHub Issues](https://github.com/vxshta/whykerala/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/vxshta/whykerala/discussions)
 - **Email**: Create an issue for support requests
 
 ---
